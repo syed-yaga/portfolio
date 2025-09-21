@@ -101,7 +101,7 @@ export function StarBackground () {
                 height: meteor.size + "px",
                 left: meteor.x + "%",
                 top: meteor.y + "%",
-                animationDelay: meteor.delay,
+                animationDelay: `${meteor.delay}ms`,
                 animationDuration: meteor.animationDuration + "s", 
             }}
             />
