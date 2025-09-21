@@ -13,7 +13,7 @@ import { cn } from "../lib/utils"
             document.documentElement.classList.add("dark")
 
        } else {
-           localStorage.setItem("theme", "light")
+           localStorage.setItem("theme", "dark")
 
               setIsDarkMode(false)
        }
